@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="itunes">
+      <UniqueIdentifier>{2b44b71e-87be-43e8-a24b-9bcbd9385335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{9c14f996-d64f-4bfe-a410-871e35cfbe0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\glog">
+      <UniqueIdentifier>{080b9f8d-f085-48ca-96e8-1c24f793f283}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin_main.cc">
+      <Filter>itunes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\glog\logging.cc">
+      <Filter>thirdparty\glog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\thirdparty\glog\basictypes.h">
+      <Filter>thirdparty\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\glog\logging.h">
+      <Filter>thirdparty\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\glog\scoped_ptr.h">
+      <Filter>thirdparty\glog</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

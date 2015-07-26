@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{6c5069f3-35bf-4d7e-8e35-b648f333aeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\glog">
+      <UniqueIdentifier>{3c59ff78-b295-4b43-86e5-1c0d58e60b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objc">
+      <UniqueIdentifier>{ada9212c-27a4-4ea3-a0cf-40ec73d42e47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin_main.cc">
+      <Filter>objc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\glog\logging.cc">
+      <Filter>thirdparty\glog</Filter>
+    </ClCompile>
+    <ClCompile Include="objc_string.cc">
+      <Filter>objc</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_valid_ea.cc">
+      <Filter>objc</Filter>
+    </ClCompile>
+    <ClCompile Include="objc_restore.cc">
+      <Filter>objc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\thirdparty\glog\basictypes.h">
+      <Filter>thirdparty\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\glog\logging.h">
+      <Filter>thirdparty\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\glog\scoped_ptr.h">
+      <Filter>thirdparty\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="objc_string.h">
+      <Filter>objc</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_valid_ea.h">
+      <Filter>objc</Filter>
+    </ClInclude>
+    <ClInclude Include="objc_restore.h">
+      <Filter>objc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿Build started 2015/1/20 18:01:49.
+     1>Project "D:\objc_plw\objc\objc.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Creating "D:\objc_plw\Release\obj\objc\objc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\objc_plw\Release\bin\objc.plw" /NOLOGO /LIBPATH:D:\objc_plw\\thirdparty\ida_sdk\lib\x86_win_vc_32 ida.lib pro.lib /MANIFEST /ManifestFile:"D:\objc_plw\Release\obj\objc\objc.plw.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\objc_plw\Release\bin\objc.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\objc_plw\Release\lib\objc.lib" /MACHINE:X86 /DLL D:\objc_plw\Release\obj\objc\logging.obj
+         D:\objc_plw\Release\obj\objc\objc_restore.obj
+         D:\objc_plw\Release\obj\objc\objc_string.obj
+         D:\objc_plw\Release\obj\objc\obj_valid_ea.obj
+         D:\objc_plw\Release\obj\objc\plugin_main.obj
+            Creating library D:\objc_plw\Release\lib\objc.lib and object D:\objc_plw\Release\lib\objc.exp
+         Generating code
+         Finished generating code
+         objc.vcxproj -> D:\objc_plw\Release\bin\objc.plw
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\objc_plw\Release\bin\objc.plw;#2" /manifest D:\objc_plw\Release\obj\objc\objc.plw.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "D:\objc_plw\Release\obj\objc\objc.unsuccessfulbuild".
+         Touching "D:\objc_plw\Release\obj\objc\objc.lastbuildstate".
+     1>Done Building Project "D:\objc_plw\objc\objc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.20

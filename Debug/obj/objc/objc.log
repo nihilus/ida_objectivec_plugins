@@ -1,0 +1,20 @@
+﻿Build started 2015/1/4 7:41:15.
+     1>Project "D:\objc_plw\objc\objc.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Creating "D:\objc_plw\Debug\obj\objc\objc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         objc.vcxproj -> D:\objc_plw\Debug\bin\objc.plw
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "D:\objc_plw\Debug\obj\objc\objc.unsuccessfulbuild".
+         Touching "D:\objc_plw\Debug\obj\objc\objc.lastbuildstate".
+     1>Done Building Project "D:\objc_plw\objc\objc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

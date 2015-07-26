@@ -1,0 +1,29 @@
+﻿Build started 2015/1/7 2:18:52.
+     1>Project "D:\objc_plw\itunes_plw\itunes_plw.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Touching "D:\objc_plw\Release\obj\itunes_plw\itunes_plw.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\objc_plw\ /ID:\objc_plw\\thirdparty\ida_sdk\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _WINDLL /D _WINDOWS /D __NT__ /D __IDP__ /D MAXSTR=1024 /D _WINDLL /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\objc_plw\Release\obj\itunes_plw\\" /Fd"D:\objc_plw\Release\obj\itunes_plw\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt plugin_main.cc
+         plugin_main.cc
+     1>D:\objc_plw\thirdparty\ida_sdk\include\struct.hpp(317): warning C4996: 'set_member_ti': was declared deprecated
+                 D:\objc_plw\thirdparty\ida_sdk\include\struct.hpp(316) : see declaration of 'set_member_ti'
+     1>plugin_main.cc(57): warning C4244: 'argument' : conversion from 'uint64' to 'uint32', possible loss of data
+     1>plugin_main.cc(65): warning C4244: 'argument' : conversion from 'uint64' to 'uint32', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\objc_plw\Release\bin\itunes_plw.plw" /NOLOGO /LIBPATH:D:\objc_plw\\thirdparty\ida_sdk\lib\x86_win_vc_32 ida.lib pro.lib /MANIFEST /ManifestFile:"D:\objc_plw\Release\obj\itunes_plw\itunes_plw.plw.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\objc_plw\Release\bin\itunes_plw.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\objc_plw\Release\lib\itunes_plw.lib" /MACHINE:X86 /DLL D:\objc_plw\Release\obj\itunes_plw\logging.obj
+         D:\objc_plw\Release\obj\itunes_plw\plugin_main.obj
+            Creating library D:\objc_plw\Release\lib\itunes_plw.lib and object D:\objc_plw\Release\lib\itunes_plw.exp
+         Generating code
+         Finished generating code
+         itunes_plw.vcxproj -> D:\objc_plw\Release\bin\itunes_plw.plw
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\objc_plw\Release\bin\itunes_plw.plw;#2" /manifest D:\objc_plw\Release\obj\itunes_plw\itunes_plw.plw.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "D:\objc_plw\Release\obj\itunes_plw\itunes_plw.unsuccessfulbuild".
+         Touching "D:\objc_plw\Release\obj\itunes_plw\itunes_plw.lastbuildstate".
+     1>Done Building Project "D:\objc_plw\itunes_plw\itunes_plw.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.38
